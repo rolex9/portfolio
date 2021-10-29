@@ -15,6 +15,6 @@ gplus_username:  Shobhitjain
 
 # Google-analytics
 google-analytics:
-  id: ""
+  id: "G-L1HJ6GSDDD"
 
 exclude: ['package.json', 'src' , 'node_modules']
