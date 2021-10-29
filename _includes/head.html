@@ -2,11 +2,12 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <link rel="icon" type="image/png"
+    href="https://i.pinimg.com/originals/16/dd/eb/16ddeb235397a444e44dd36425a8220e.jpg" />
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
   <meta name="description"
     content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <link rel="shortcut icon" type="image/jpg" href="/assets/img/logo.jpg" />
+
   <link rel="stylesheet" href="{{ " /assets/css/main.css" | prepend: site.baseurl }}">
 </head>
