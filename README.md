@@ -14,7 +14,7 @@ Hi, This is the Personal Portfolio site for Shobhit Jain, built with HTML/JS/CSS
 It is very easy to use this repository!
 
 > 1. Clone/Fork the Repository.
-> 2. Configure the Config.yml and other files according to yourself.
+> 2. Configure the _config.yml and other files according to yourself.
 > 3. Buy Your Own Domain / Use Github Subdomain.
 > 4. Create Github Pages in your repository in settings tab.
 > 5. If you have domain then link it with github DNS.
