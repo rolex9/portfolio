@@ -16,6 +16,7 @@
   text-align: center;
   font-size: 60px;
   display: flex;
+  margin: 3px auto;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -25,6 +26,7 @@
   @media only screen and (min-width: $cut) {
     flex-wrap: nowrap;
     font-size: 75px;
+    
   }
 }
 
