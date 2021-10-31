@@ -7,6 +7,7 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
   <meta property="og:title" content="Shobhit Jain">
+  <meta property="og:site_name" content="Portfolio Website">
   <meta property="og:description"
     content="Shobhit Jain is a Python/C/C++ and Wordpress developer from Indore, India. Now is the time to see his portfolio site!">
   <meta property="og:image"
@@ -15,6 +16,6 @@
   <meta name="description"
     content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta property="theme-color" content="#B81217">
-  <meta property="og:site_name" content="Portfolio Website">
+
   <link rel="stylesheet" href="{{ " /assets/css/main.css" | prepend: site.baseurl }}">
 </head>
